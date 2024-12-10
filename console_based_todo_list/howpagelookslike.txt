@@ -1,0 +1,34 @@
+Login Module..........
+ater Running code
+    Enter 1 for creating account
+    Enter 0 for login
+
+if we Enter 1 Go to account creation page
+    Enter phno and name.and submit.then successfully account created message.
+    then redirected to task module
+if we Enter 0 redirect to task module
+    set phno lengh==10 and also set phno checking(only digits can accept)
+
+Task Module............
+displays  task names assigned with number
+0-->terminate  1-->Add Task   2-->Delete Task    3-->Updte Task 4-->Viwe Tasks  5-->login  6-->signin 
+
+1.Add Task
+    Message:Note Your Task..
+    Store Entered Task in Task Manager table and also a taskId was also assigned automatically
+
+2.Delete Task
+    To delee a task enter TaskId
+    successfully removed your task
+
+3.update task
+    Update the task by using TaskId
+    successfully updated task
+    Again Enter TaskId to Update messgae until if you enter No you can redirect to TaskManager module
+
+4.View tasks
+    Automatically list view displays like
+    -----------------------------
+    |   TaskData    |   TaskId  |
+    -----------------------------
+    retunrn to TaskManager Module again

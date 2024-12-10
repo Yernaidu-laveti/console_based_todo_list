@@ -1,0 +1,15 @@
+Tasks are stored in database
+user have to create an account and after login he get message like "welcome to your task manager"
+1.create a task
+2.delete a task
+3.displaying the task
+4.updating the task
+
+In signIn after submitting data a unique key was generated to that user stored in database.
+based on that key user data in "task manager table" was handled
+
+TaskManager table stores userd tasks.
+It has following columns
+-----------------------------------------------------------------------------
+|   userId    |    Task Data    |  TaskId   |   TaskDate(comes in version 2)  |
+-----------------------------------------------------------------------------
